@@ -1,0 +1,160 @@
+body
+{   
+	margin:0;
+	padding:0;
+	background:#484848;
+	font-size:16px;
+	color:#000;
+	font-family:railway,sans-serif;
+	font:;ont-weight:300;
+	height:500px;
+	
+}
+#login-box
+{
+	top:20px;
+	position:relative;
+	margin:10px auto;
+	width:200px;
+	height:150px;
+	background:#fff;
+	box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+
+ }
+.left-box
+ {
+ 	position:absolute;
+ 	top:0px;
+ 	right:50%;
+ 	box-sizing:border-box; 
+	background-image:url(image2.jpg);
+ 	padding:40px;
+ 	width:400px;
+ 	height:450px;
+ }
+#a
+{
+ 	margin:0 0 10px 0;
+ 	font-weight:300;
+ 	font-size:30px;
+ 	color:#FF2200;
+}
+input[type="text"],
+input[type="password"]
+ {
+    background:wheat;
+ 	display:block;
+ 	box-sizing:border-box;
+ 	margin-bottom:20px;
+ 	padding:10px;
+ 	width:300px;
+ 	height:40px;
+ 	border:none;
+ 	outline:none;
+ 	border-bottom:1px solid #aaa;
+ 	font-family:sans-serif;
+ 	font-weight:300;
+ 	font-size:14px;
+ 	transition:0.2s ease;
+}
+input[type="submit"],
+input[type="reset"]
+{
+ 	margin-bottom:28px;
+	bottom: 60px;
+ 	width:150px;
+    height:50px;
+ 	background:#f44336;
+ 	border:none;
+ 	border-radius:50%;
+ 	color:#fff;
+ 	font-size:20px;
+ 	font-family:railway;
+ 	font-weight:500;
+ 	text-transform:uppercase;
+ 	transition:0.2s ease;
+ 	cursor:pointer;
+}
+input[type="submit"]:hover,		
+input[type="submit"]:focus
+{
+ 	background:#E8C50F;
+ 	transition:0.2s ease;
+	color:#000000;
+}
+input[type="reset"]:hover,		
+input[type="reset"]:focus
+{
+ 	background:#E8C50F;
+ 	transition:0.2s ease;
+	color:#000000;
+}
+.right-box
+{
+	position:absolute;
+	top:0px;
+	left:50%;
+	align:center;
+	box-sizing:border-box;
+	padding:40px;
+	width:400px;
+	height:450px;
+	background-image:url(image1.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.or
+{
+	position:absolute;
+	top:200px;
+	left:72px;
+	width:60px;
+	height:40px;
+	background:transparent;
+	border:none;
+	color:#FF0000;
+	border-radius:50%;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+}
+.right-box h1
+{
+	margin-bottom:40px;
+	font-size:30px;
+	color:#FF0004;
+	text-align:center;
+	font-family:roboto;
+	font-weight:100;
+	background-color:#838383;
+	text-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+}
+button.social
+{
+	margin-bottom:20px;
+	text-align:center;
+	width:250px;
+	height:70px;
+	border:none;
+	border-radius:50%;
+	color:#fff;
+	font-size:20px;
+	font-family:railway;
+	font-weight:500;
+	transition:0.2s ease;
+	cursor:pointer;
+}
+.facebook
+{
+	background:#32508e;
+}
+.twitter
+{
+	background:#55acee;
+}
+.google
+{
+	background:#dd4b39;
+}
+	

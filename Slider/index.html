@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.slideshow{
+			wid4h:80%;
+			height:700px;
+			margin:auto;
+			}
+
+</style>
+<title>Slider2</title>
+</head>
+<body>
+<script>
+				var images=["image11",
+																			"image22",
+																			"image33",
+																			"image44",
+																			"image8"];
+					var i=0;
+					function slides(){
+					document.getElimentById("slide image").src=images[i];
+					if(i<(images))  //4<4
+					i++;
+					else
+					i=0;
+					
+					}
+	setInterval(slides,2000)
+</script>
+<div class="slideshow">
+<h1>IMAGE SLIDE SHOW USING HTML & CSS</h1>
+<hr>
+<img src="image11.jpg" alt="image11" id="slideimage">
+</body>
+</html>

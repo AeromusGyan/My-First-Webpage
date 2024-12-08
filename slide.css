@@ -1,0 +1,42 @@
+.slideshow{
+				width:1024px;
+				overflow:hidden;
+				margin:auto;
+}
+#slider-box{
+				position:relative;
+				width:4956px;
+				animation:gyan 8s infinite;
+				}
+				#slider-box img{
+						float:left;
+						}
+@keyframes gyan{
+												0%{
+															left:0px;
+												}
+												25%{
+															left:0px;
+												}
+												37.5%{
+															left:-1024px;
+												}
+												50%{
+															left:-1024px;
+													}
+												62.5%{
+															left:-2048px;
+												}
+												75%{
+															left:-2048px
+												}
+												87.5%{
+																left:-3072px;
+												}
+												100%{
+																left:-4096px;
+												}
+												100%{
+																left:-4096px;
+												}
+}												
